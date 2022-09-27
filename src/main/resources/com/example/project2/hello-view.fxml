@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="411.0" prefWidth="444.0" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project2.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label alignment="TOP_CENTER" graphicTextGap="5.0" prefHeight="52.0" prefWidth="226.0" text="GRA KÓŁKO-KRZYŻYK" wrapText="true" />
+   
+   <AnchorPane fx:id="anchorPane" prefHeight="294.0" prefWidth="441.0">
+      <children>
+         <Button fx:id="press2" cacheShape="false" centerShape="false" depthTest="DISABLE" focusTraversable="false" layoutX="99.0" pickOnBounds="false" prefHeight="84.0" prefWidth="99.0" scaleShape="false" snapToPixel="false">
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+            <cursor>
+               <Cursor fx:constant="DISAPPEAR" />
+            </cursor></Button>
+         <Button fx:id="press1" cacheShape="false" centerShape="false" focusTraversable="false" mnemonicParsing="false" pickOnBounds="false" prefHeight="84.0" prefWidth="99.0" scaleShape="false" />
+         <Button fx:id="press3" cacheShape="false" centerShape="false" focusTraversable="false" layoutX="196.0" mnemonicParsing="false" pickOnBounds="false" prefHeight="84.0" prefWidth="99.0" scaleShape="false" />
+         <Button fx:id="press4" cacheShape="false" centerShape="false" focusTraversable="false" layoutY="84.0" mnemonicParsing="false" pickOnBounds="false" prefHeight="84.0" prefWidth="99.0" scaleShape="false" />
+         <Button fx:id="press5" cacheShape="false" centerShape="false" focusTraversable="false" layoutX="99.0" layoutY="84.0" mnemonicParsing="false" pickOnBounds="false" prefHeight="84.0" prefWidth="99.0" scaleShape="false" />
+         <Button fx:id="press6" cacheShape="false" centerShape="false" focusTraversable="false" layoutX="196.0" layoutY="84.0" mnemonicParsing="false" pickOnBounds="false" prefHeight="84.0" prefWidth="99.0" scaleShape="false" />
+         <Button fx:id="press7" cacheShape="false" centerShape="false" focusTraversable="false" layoutY="168.0" mnemonicParsing="false" pickOnBounds="false" prefHeight="84.0" prefWidth="99.0" scaleShape="false" />
+         <Button fx:id="press8" cacheShape="false" centerShape="false" focusTraversable="false" layoutX="99.0" layoutY="168.0" mnemonicParsing="false" pickOnBounds="false" prefHeight="84.0" prefWidth="99.0" scaleShape="false" />
+         <Button fx:id="press9" cacheShape="false" centerShape="false" focusTraversable="false" layoutX="196.0" layoutY="168.0" mnemonicParsing="false" pickOnBounds="false" prefHeight="84.0" prefWidth="99.0" scaleShape="false" />
+
+      </children>
+   </AnchorPane>
+</VBox>
